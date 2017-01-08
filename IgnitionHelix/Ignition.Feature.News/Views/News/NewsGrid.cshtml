@@ -1,0 +1,11 @@
+﻿@using Ignition.Feature.Core
+@model Ignition.Feature.News.ViewModels.NewsGridViewModel
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            @Html.Sitecore().Placeholder(FeatureConstants.Placeholders.News.FeaturedNews)
+            @Html.Sitecore().Placeholder(FeatureConstants.Placeholders.News.LatestNews)
+        </div>
+    </div>
+</div>
